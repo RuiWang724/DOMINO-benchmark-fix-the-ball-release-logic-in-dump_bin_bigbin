@@ -25,16 +25,10 @@
 ## 如何应用到 DOMINO
 
 ```bash
-cp /work/sme-wangr/xiugai/DOMINO/envs/dump_bin_bigbin.py \
-   /work/sme-wangr/DOMINO/envs/dump_bin_bigbin.py
+cp /DOMINO_fix/envs/dump_bin_bigbin.py \
+   /DOMINO/envs/dump_bin_bigbin.py
 ```
 
-或自行 diff：
-
-```bash
-diff -u /work/sme-wangr/DOMINO/envs/dump_bin_bigbin.py \
-        /work/sme-wangr/xiugai/DOMINO/envs/dump_bin_bigbin.py
-```
 
 ## 改完后的行为
 
