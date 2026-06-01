@@ -6,15 +6,15 @@
 
 | 本目录（修改后） | 原仓库（对照用，勿直接混用路径） |
 |------------------|----------------------------------|
-| `xiugai/DOMINO/envs/dump_bin_bigbin.py` | `/work/sme-wangr/DOMINO/envs/dump_bin_bigbin.py` |
+| `/DOMINO_fix/envs/dump_bin_bigbin.py` | `/DOMINO/envs/dump_bin_bigbin.py` |
 
 ## 无需修改的文件（仅引用）
 
 | 文件路径 | 说明 |
 |----------|------|
-| `/work/sme-wangr/DOMINO/envs/_base_task.py` | `stop_dynamic_object_motion()` 基类实现（L3523 起） |
-| `/work/sme-wangr/DOMINO/script/eval_policy.py` | L422–423 在 contact 时调用 `TASK_ENV.stop_dynamic_object_motion()` |
-| `/work/sme-wangr/DOMINO/script/eval_policy_client.py` | L534–535，同上 |
+| `/DOMINO/envs/_base_task.py` | `stop_dynamic_object_motion()` 基类实现（L3523 起） |
+| `/DOMINO/script/eval_policy.py` | L422–423 在 contact 时调用 `TASK_ENV.stop_dynamic_object_motion()` |
+| `/DOMINO/script/eval_policy_client.py` | L534–535，同上 |
 
 ## 相对原版的 3 处改动
 
